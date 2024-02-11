@@ -229,3 +229,46 @@
   line-height: 12px;
   color: #ffffffff;
 }
+/* Reset some default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a mobile-friendly font size to the entire document */
+body {
+  font-size: 16px;
+}
+
+/* Set viewport properties for better responsiveness */
+meta {
+  viewport {
+    width: device-width;
+    initial-scale: 1.0;
+  }
+}
+
+/* Apply responsive styles to the parent container */
+.parent-div {
+  width: 100%;
+  height: auto; /* Let the height adjust dynamically based on content */
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Adjust specific elements for smaller screens */
+.arrow-11-0-144 {
+  width: 5%; /* Adjust width as needed */
+  height: auto; /* Let the height adjust based on content */
+  top: 5%; /* Adjust position as needed */
+  left: 5%; /* Adjust position as needed */
+}
+
+/* Add media query for smaller screens */
+@media screen and (max-width: 600px) {
+  /* Adjust specific styles for screens with a maximum width of 600 pixels */
+  .parent-div {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
