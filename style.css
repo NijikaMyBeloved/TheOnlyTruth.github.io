@@ -1,11 +1,12 @@
 .parent-div {
   width: 100%;
-  height: 800px; /* Maintain the desired height */
+  height: 100vh; /* Adjust as needed */
   overflow: hidden;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 
 .android-large---1-189 {
   position: absolute;
