@@ -1,6 +1,6 @@
 .parent-div {
-  width: 500%;
-  height: 500vh; /* Adjust as needed */
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   margin: 0;
   padding: 0;
